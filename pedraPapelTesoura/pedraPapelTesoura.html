@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <title>Pedra Papel Tesoura</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-gray-900 text-white flex flex-col items-center justify-center min-h-screen p-4">
+    <p class="title text-3xl font-bold mb-6">Pedra Papel Tesoura</p>
+    
+    <div class="div1 flex space-x-4 mb-6">
+      <button class="b1 bg-gray-700 p-4 rounded-lg hover:bg-gray-600 transition">
+        <img src="imagens/rock-emoji.png" class="w-16 h-16">
+      </button>
+      <button class="b3 bg-gray-700 p-4 rounded-lg hover:bg-gray-600 transition">
+        <img src="imagens/paper-emoji.png" class="w-16 h-16">
+      </button>
+      <button class="b4 bg-gray-700 p-4 rounded-lg hover:bg-gray-600 transition">
+        <img src="imagens/scissors-emoji.png" class="w-16 h-16">
+      </button>
+    </div>
+    
+    <p id="r2" class="resul2 text-xl font-semibold mb-2"></p>
+    <p id="r1" class="resul1 text-lg mb-4 flex flew-row gap-3"></p>
+    <p class="placarHtml text-lg font-bold mb-6"></p>
+    
+    <div class="div2 flex space-x-4">
+      <button class="b2 bg-red-500 px-6 py-2 rounded-lg hover:bg-red-400 transition">Resetar Placar</button>
+      <button class="b5 bg-blue-500 px-6 py-2 rounded-lg hover:bg-blue-400 transition">Autoplay</button>
+    </div>
+
+    <script src="scripts/pedraPapelTesoura.js"></script>
+  </body>
+</html>
